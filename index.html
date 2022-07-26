@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/e6707f06ff.js" crossorigin="anonymous"></script>
+  <title>Penguine Website</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Menua Area Startt -->
+  <section class="bg-orange-50 md:py-5 md:px-28">
+      <div class="container mx-auto">
+        <div class="container mx-auto">    
+          <nav class=" border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+              <a href="#" class="flex items-center">
+                  <img src="images/logo.png" class="mr-3 h-6 sm:h-9" alt="Penguin">
+              </a>
+              <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+              </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                  <li>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-yellow-400 md:p-0 dark:text-white" aria-current="page">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-yellow-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+      </div>
+  </section>
+  <!-- Menu Area End -->
+  <!-- Header Area Start -->
+    <header class="py-20 bg-orange-50">
+        <div class="container mx-auto sm:flex justify-around items-center">
+            <div class="space-y-5 ml-5 sm:ml-0">
+                <h1 class="text-5xl font-bold"><span class="text-yellow-400 uppercase">Be The Penguin</span> <br><span class="text-yellow-400 uppercase"> <span class="text-black uppercase"> OF WINTER</span></h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+            </div>
+            <div class="mt-10 sm:mt-0">
+                <img class="w-4/5 mx-auto sm:w-full" src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+  <!-- Header Area Start -->
+
+
+    <main>
+      <!-- Woman Jacket Start -->
+      <section class="container mx-auto bg-slate-50 py-20">
+            <div>
+                <h2 class="text-5xl font-bold">Woman Jacket</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="p-4 shadow-2xl rounded">
+                    <div class="p-10 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>               
+                    <div class="flex items-center justify-between">
+                        <div>
+                          <h2 class="text-5xl font-bold text-yellow-400">$234</h2>
+                        </div>
+                        <div>
+                          <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-2xl rounded">
+                    <div class="p-10 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>               
+                    <div class="flex items-center justify-between">
+                        <div>
+                          <h2 class="text-5xl font-bold text-yellow-400">$234</h2>
+                        </div>
+                        <div>
+                          <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 shadow-2xl rounded">
+                    <div class="p-10 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>               
+                    <div class="flex items-center justify-between">
+                        <div>
+                          <h2 class="text-5xl font-bold text-yellow-400">$234</h2>
+                        </div>
+                        <div>
+                          <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <!-- Woman Jacket End -->
+      <!-- Men Jackes Start -->
+      <section class="container mx-auto bg-slate-50 py-20">
+        <div>
+            <h2 class="text-5xl font-bold">Man Jacket</h2>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="p-4 shadow-2xl rounded">
+                <div class="p-10 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-4.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>               
+                <div class="flex items-center justify-between">
+                    <div>
+                      <h2 class="text-5xl font-bold text-yellow-400">$234</h2>
+                    </div>
+                    <div>
+                      <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 shadow-2xl rounded">
+                <div class="p-10 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-5.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>               
+                <div class="flex items-center justify-between">
+                    <div>
+                      <h2 class="text-5xl font-bold text-yellow-400">$234</h2>
+                    </div>
+                    <div>
+                      <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 shadow-2xl rounded">
+                <div class="p-10 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-6.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>               
+                <div class="flex items-center justify-between">
+                    <div>
+                      <h2 class="text-5xl font-bold text-yellow-400">$234</h2>
+                    </div>
+                    <div>
+                      <a class="bg-[#a4bc46] px-6 py-3 inline-block text-white rounded-lg text-xl" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+      <!-- Men Jackes End -->
+      <!-- Signup Area Start -->
+       <section class="bg-slate-300 py-20">
+        <div class="container mx-auto">
+          <div class="grid lg:grid-cols-2 md:grid-cols-2 gap-8">
+            <div class="bg-white p-5 mx-5 rounded-xl">
+              <div class="flex items-center">
+                  <img class="w-20 h20" src="images/house.png" alt="">
+                  <div class="ml-12">
+                    <h2 class="text-xl">Find the Perfect Fit</h2>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                  </div>
+              </div>        
+            </div>
+            <div class="row-span-3 bg-white p-5 mx-5 rounded-xl flex items-center justify-center">
+              <img src="images/shopping.png" alt="">
+            </div>
+            <div class="bg-white p-5 mx-5 rounded-xl">
+              <div class="flex items-center">
+                  <img class="w-20 h20" src="images/house.png" alt="">
+                  <div class="ml-12">
+                    <h2 class="text-xl">Find the Perfect Fit</h2>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                  </div>
+              </div>        
+            </div>
+            <div class="bg-white p-5 mx-5 rounded-xl">
+              <div class="flex items-center">
+                  <img class="w-20 h20" src="images/house.png" alt="">
+                  <div class="ml-12">
+                    <h2 class="text-xl">Find the Perfect Fit</h2>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                  </div>
+              </div>        
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- Signup Area End -->
+    </main>
+    <footer>
+      <section>
+        <div>
+          <div class="bg-black py-8">
+            <p class="text-center text-white">© 2022 All rights reserved.Powered by Developer Hridoy.
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+</body>
+</html>
